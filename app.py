@@ -157,6 +157,3 @@ def generate_timetable():
     timetable = run_genetic_algorithm(data=None)
     return jsonify(timetable)
 
-# Run the Flask app
-if __name__ == "__main__":
-    app.run(debug=True)
